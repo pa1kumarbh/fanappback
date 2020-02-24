@@ -1,0 +1,170 @@
+{
+    "properties": {},
+    "scripts": {},
+    "fieldsInLists": [],
+    "fieldsInReferences": [],
+    "fields": [
+        {
+            "name": "Position",
+            "properties": {
+                "fieldType": "Array"
+            },
+            "partitioning": "invariant",
+            "nested": [
+                {
+                    "name": "Position",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "TeamName",
+                    "properties": {
+                        "fieldType": "String",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "TeamID",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GamesWon",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GamesWonOverTime",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GamesWonPenalty",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GamesWonExtraTime",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GamesWonInTime",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GamesLost",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GamesLostOvertime",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GamesLostPenalty",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GamesLostExtraTime",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GamesLostInTime",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GamesTied",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GoalsFor",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GoalsAgainst",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GoalsDifference",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "GoalsOutwards",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                },
+                {
+                    "name": "Streak",
+                    "properties": {
+                        "fieldType": "String",
+                        "editor": "Input"
+                    },
+                    "parentId": 223
+                }
+            ]
+        }
+    ],
+    "isPublished": true
+}

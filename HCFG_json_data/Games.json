@@ -1,0 +1,66 @@
+{
+    "properties": {},
+    "scripts": {},
+    "fieldsInLists": [],
+    "fieldsInReferences": [],
+    "fields": [
+        {
+            "name": "Game1",
+            "properties": {
+                "fieldType": "Array"
+            },
+            "partitioning": "invariant",
+            "nested": [
+                {
+                    "name": "DateAndTime",
+                    "properties": {
+                        "fieldType": "DateTime",
+                        "editor": "DateTime"
+                    },
+                    "parentId": 1
+                },
+                {
+                    "name": "HomeTeam",
+                    "properties": {
+                        "fieldType": "String",
+                        "editor": "Input"
+                    },
+                    "parentId": 1
+                },
+                {
+                    "name": "AwayTeam",
+                    "properties": {
+                        "fieldType": "String",
+                        "editor": "Input"
+                    },
+                    "parentId": 1
+                },
+                {
+                    "name": "GameID",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 1
+                },
+                {
+                    "name": "HomeGoals",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 1
+                },
+                {
+                    "name": "AwayGoals",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 1
+                }
+            ]
+        }
+    ],
+    "isPublished": true
+}

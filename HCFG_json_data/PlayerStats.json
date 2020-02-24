@@ -1,0 +1,137 @@
+{
+    "properties": {},
+    "scripts": {},
+    "fieldsInLists": [],
+    "fieldsInReferences": [],
+    "fields": [
+        {
+            "name": "Player",
+            "properties": {
+                "fieldType": "Array"
+            },
+            "partitioning": "invariant",
+            "nested": [
+                {
+                    "name": "TeamID",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "TeamName",
+                    "properties": {
+                        "fieldType": "String",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "Name",
+                    "properties": {
+                        "fieldType": "String",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "JerseyNumber",
+                    "properties": {
+                        "fieldType": "String",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "Position",
+                    "properties": {
+                        "fieldType": "String",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "LicenseNumber",
+                    "properties": {
+                        "fieldType": "String",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "Photo",
+                    "properties": {
+                        "fieldType": "Assets"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "GamesPlayed",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "Goals",
+                    "properties": {
+                        "fieldType": "String",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "Assists",
+                    "properties": {
+                        "fieldType": "String",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "GamesWon",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "WinInRegularTime",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "WinsAfterExtensions",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "HitsTaken",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "PlayedMinutes",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                }
+            ]
+        }
+    ],
+    "isPublished": true
+}

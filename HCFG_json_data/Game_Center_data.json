@@ -1,0 +1,87 @@
+{
+    "properties": {},
+    "scripts": {},
+    "fieldsInLists": [],
+    "fieldsInReferences": [],
+    "fields": [
+        {
+            "name": "Games",
+            "properties": {
+                "fieldType": "Array",
+                "label": "Games"
+            },
+            "partitioning": "invariant",
+            "nested": [
+                {
+                    "name": "GameID",
+                    "properties": {
+                        "isRequired": true,
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "Event",
+                    "properties": {
+                        "isRequired": true,
+                        "fieldType": "String",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "TeamID",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "LicenseNumber",
+                    "properties": {
+                        "isRequired": true,
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "Minutes",
+                    "properties": {
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "Time",
+                    "properties": {
+                        "isRequired": true,
+                        "fieldType": "DateTime",
+                        "editor": "DateTime"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "PlayerImage",
+                    "properties": {
+                        "fieldType": "Assets"
+                    },
+                    "parentId": 2
+                },
+                {
+                    "name": "Period",
+                    "properties": {
+                        "isRequired": true,
+                        "fieldType": "Number",
+                        "editor": "Input"
+                    },
+                    "parentId": 2
+                }
+            ]
+        }
+    ],
+    "isPublished": true
+}
