@@ -20,10 +20,6 @@ FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-alpine
 # Default AspNetCore directory
 WORKDIR /app
  
-# add libuv
-RUN apk add --no-cache libuv \
- && ln -s /usr/lib/libuv.so.1 /usr/lib/libuv.so
- 
 # Copy from build stage
 COPY --from=build-env /out/alpine .
  
